@@ -137,7 +137,7 @@ const downloadMedia = async (conn, m, url, type) => {
 
 const cleanName = (name) => name.replace(/[^\w\s-_.]/gi, "").substring(0, 50)
 
-handler.command = ["play", "ytmp4", "ytsearch"]
+handler.command = ["play", "yt", "ytsearch"]
 handler.tags = ["descargas"]
 handler.register = true
 
